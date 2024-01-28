@@ -81,4 +81,8 @@ footer {
     text-align: center;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+a {
+    color:blueviolet ;
 }
