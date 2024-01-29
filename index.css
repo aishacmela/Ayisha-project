@@ -1,5 +1,5 @@
 body{
-    background-color: #F9F7FE;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     font-family: 'Roboto', sans-serif;
 }
 header{
@@ -9,9 +9,9 @@ header{
 
 
 .app{
-    background-color: white;
+    background: linear-gradient(181.2deg, rgb(181, 239, 249) 10.5%,rgb(254, 254, 254)86.8%);
     max-width: 600px;
-    margin: 50px auto;
+    margin: 70px auto;
     padding: 30px;
     box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px;
     border-radius: 16px;   
@@ -25,7 +25,7 @@ header{
     font-size: 16px ;
 }
 .search-button{
-    background-color: blueviolet;
+    background-color: #5585b5;
     padding: 15px 20px ;
     border: none;
     border-radius: 6px;
@@ -71,7 +71,7 @@ main{
     font-weight: bold;
 }
 .weather-app-temperature-unit{
-        margin-top: 6px;
+        margin-top: 12px;
         font-size: 28px;
 }
 
@@ -84,5 +84,5 @@ footer {
     font-weight: 500;
 }
 a {
-    color:blueviolet ;
+    color:#5585b5 ;
 }
