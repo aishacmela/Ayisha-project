@@ -1,3 +1,5 @@
+
+
 function search(event){
     event.preventDefault();
     let searchInput = document.querySelector("#search-input")
@@ -8,3 +10,5 @@ function search(event){
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", search);
+
+
