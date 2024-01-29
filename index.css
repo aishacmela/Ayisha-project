@@ -16,7 +16,7 @@ header{
     box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px;
     border-radius: 16px;   
 }
-.search-form{
+.search-form-input{
     background: #F9F7FE;
     border-radius:6px ;
     border: none;

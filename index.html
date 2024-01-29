@@ -13,15 +13,15 @@
 <body>
     <div class="app">
    <header>
-<form >
-    <input type="text" placeholder="Enter your city" required class="search-form" >
-    <input type="submit" value="search" class="search-button">
+<form  id="search-form">
+    <input type="text" placeholder="Enter your city" required class="search-form-input" id="search-input" >
+    <input type="submit" value="search" class="search-button" id="search-button">
 </form>
    </header>
 <main>
     <div class="weather-app-data">
         <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
                 Tuesday 14:49, scattered clouds
                 <br />
@@ -41,5 +41,7 @@
     <a href="https://github.com/aishacmela/Ayisha-project">GitHub</a>  and hosted on <a href="https://aisha-weatherapp.netlify.app/">netlify</a>
    </footer>
    </div>
+
+   <script src="script.js"></script>
 </body>
 </html>
